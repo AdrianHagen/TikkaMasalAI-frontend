@@ -3,7 +3,7 @@ import os
 import streamlit as st
 
 DEV_BASE_URL = "http://127.0.0.1:8000/"
-PROD_BASE_URL = "http://35.233.22.145:8000/"
+PROD_BASE_URL = "http://34.79.200.186:8000/"
 
 URL = PROD_BASE_URL
 
