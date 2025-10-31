@@ -5,7 +5,7 @@ import streamlit as st
 DEV_BASE_URL = "http://127.0.0.1:8000/"
 PROD_BASE_URL = "http://35.233.22.145:8000/"
 
-URL = DEV_BASE_URL
+URL = PROD_BASE_URL
 
 DEFAULT_API_URL = os.path.join(URL, "predict")
 DEFAULT_LLM_URL = os.path.join(URL, "llm/generate")
