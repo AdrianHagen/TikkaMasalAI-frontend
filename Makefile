@@ -1,2 +1,2 @@
 app:
-	uv run streamlit run main.py
+	uv run streamlit run src/main.py

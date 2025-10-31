@@ -10,3 +10,28 @@ dependencies = [
 	"pillow",
 	"numpy",
 ]
+[tool.ruff]
+# Enable rules
+select = ["E", "F", "W", "B", "I", "C"]
+
+# Ignore specific rules
+ignore = [
+    "E501"  # line too long, let Black handle formatting
+]
+
+# Exclude files/folders
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+]
+
+# Line length (matches Black default)
+line-length = 88
+
+# Target Python version
+target-version = "py310"
+
+# Automatically fix safe issues
+fix = true
